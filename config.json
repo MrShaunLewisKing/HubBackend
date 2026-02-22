@@ -18,7 +18,7 @@
         "email_confirm": "https://{domain}/auth/email?secret={secret}"
     },
 
-    "domain": "",
+    "domain": "hub.thebritishlogisticscompany.co.uk",
     "prefix": "",
     "server_host": "127.0.0.1",
     "server_port": 7777,
@@ -26,11 +26,11 @@
     "whitelist_ips": [],
     "webhook_error": "",
 
-    "database": "mysql",
-    "db_host": "localhost",
-    "db_user": "",
-    "db_password": "",
-    "db_name": "_drivershub",
+    "database": "postgres",
+    "db_host": "drivershub_drivershub",
+    "db_user": "admin",
+    "db_password": "Shaun0000!",
+    "db_name": "drivershub",
     "db_data_directory": "/var/lib/mysqlext/",
     "db_pool_size": 10,
     "db_error_keywords": ["lost connection", "deadlock", "readexactly", "timeout", "[aiosql]"],
@@ -86,33 +86,33 @@
         "https://c.tenor.com/1SPfoAWWejEAAAAC/chevy-truck.gif",
         "https://c.tenor.com/MfGOJIgU22UAAAAC/ford-f100-truck.gif"],
 
-    "discord_guild_id": "",
-    "discord_client_id": "",
-    "discord_client_secret": "",
-    "discord_bot_token": "",
-    "steam_api_key": "",
+    "discord_guild_id": "1472785760708202672",
+    "discord_client_id": "1199007203768672297",
+    "discord_client_secret": "QL00GNjTJHWOzb2Ax_qGMSH7FHh622Dz",
+    "discord_bot_token": "MTE5OTAwNzIwMzc2ODY3MjI5Nw.GIsl3-.h_nMF2QHd_M6rm_4hMvjoR09AReTKjTOb9DnyM",
+    "steam_api_key": "840A1DD401F1ED215A55EBEC5FDAF220",
     "discord_guild_message_replace_rules": {"matching_regex": "replacing_regex"},
 
-    "smtp_host": "",
-    "smtp_port": "",
-    "smtp_email": "",
-    "smtp_password": "",
+    "smtp_host": "smtp-relay.brevo.com",
+    "smtp_port": 587,
+    "smtp_email": "a30469001@smtp-brevo.com",
+    "smtp_password": "xsmtpsib-5df14ec4166c584199af91a1ef6f2d0084f83f5522b0754323b16ab7c5cf2f72-F37RwrFTduYeXeCk",
     "email_template": {
         "register": {
             "subject": "Register Acccount",
-            "from_email": "VTC <email>",
+            "from_email": "VTC <a30469001@smtp-brevo.com>",
             "html": "You are registering an account in Drivers Hub. Please click the link below to verify your email.<br>{link}",
             "plain": "You are registering an account in Drivers Hub. Please click the link below to verify your email.\n{link}"
         },
         "update_email": {
             "subject": "Update Email",
-            "from_email": "VTC <email>",
+            "from_email": "VTC <a30469001@smtp-brevo.com>",
             "html": "You are updating your email in Drivers Hub. Please click the link below to verify your email.<br>{link}",
             "plain": "You are updating your email in Drivers Hub. Please click the link below to verify your email.\n{link}"
         },
         "reset_password": {
             "subject": "Reset Password",
-            "from_email": "VTC <email>",
+            "from_email": "VTC <a30469001@smtp-brevo.com>",
             "html": "You are resetting your password in Drivers Hub. Please click the link below to continue.<br>{link}",
             "plain": "You are resetting your password in Drivers Hub. Please click the link below to continue.\n{link}"
         }
